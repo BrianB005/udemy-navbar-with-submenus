@@ -34,6 +34,7 @@ const CategoryList = () => {
 
   const handleLeave = (e) => {
     e.target.classList.remove("active");
+    dispatch(closeNavSubmenu());
   };
 
   return (
